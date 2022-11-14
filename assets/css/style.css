@@ -1,205 +1,217 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+body {
     background-color: white;
-    font-family: "montserrat",'san-sarif';
+    font-family: "montserrat", "san-sarif";
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
 }
-img{
-    max-width: 100%;
-    height: auto;
-}
-h1{
+
+h1 {
     font-size: 50px;
 }
-h2{
+h2 {
     font-size: 30px;
 }
-h3{
+h3 {
     font-size: 40px;
 }
-h4{
+h4 {
     font-size: 30px;
 }
-h5{
+h5 {
     font-size: 24px;
 }
-h6{
+h6 {
     font-size: 16px;
 }
-a{
+a {
     text-decoration: none;
-    color:whitesmoke;
+    color: whitesmoke;
 }
-p{
+p {
     line-height: 28px;
 }
-ul{
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-figure{
+figure {
     margin-bottom: 0;
 }
-.container{
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* .container {
     width: 1110px;
+} */
+.navbar-toggler {
+    border: none;
 }
-.nav-container{
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 30px;
+    margin: 5px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+.nav-container {
     color: white;
 }
-.sub-title{
-   padding-top: 100px;
+.sub-title {
+    padding-top: 100px;
     padding-bottom: 25px;
     color: white;
 }
-.text{
+.text {
     color: white;
 }
-.title{
+.title {
     padding-bottom: 25px;
 }
-.navbar-nav li a .nav-link active{
-    color: #04B3D0;
+.navbar-nav li a .nav-link active {
+    color: #04b3d0;
 }
-.navbar-nav li a{
+.navbar-nav li a {
     color: white;
 }
-.navbar-nav li a:hover{
-    color: #04B3D0;
+.navbar-nav li a:hover {
+    color: #04b3d0;
 }
 
-.nav-item{
+.nav-item {
     padding-right: 30px;
 }
 
-.title-paragraph{
+.title-paragraph {
     padding-bottom: 30px;
 }
-.hero-section .btn{
+.hero-section .btn {
     border-radius: 20px 0 20px 20px;
     margin-bottom: 100px;
 }
-.hero-section .btn:hover{
-    background-color: #04B3D0;
+.hero-section .btn:hover {
+    background-color: #04b3d0;
 }
-.adventure{
+.adventure {
     padding-top: 100px;
 }
-.adv-title{
+.adv-title {
     text-align: center;
     padding-bottom: 15px;
 }
-.adv-paragraph{
+.adv-paragraph {
     text-align: center;
     padding-bottom: 30px;
 }
-.adventure .btn{
+.adventure .btn {
     border-radius: 20px 0 20px 20px;
     background-color: red;
     color: white;
     padding: 10px;
-   
 }
-.adventure .btn:hover{
-    color:white;
-    background-color: #04B3D0;
+.adventure .btn:hover {
+    color: white;
+    background-color: #04b3d0;
 }
-.take-yourself{
+.take-yourself {
     padding-top: 100px;
 }
-.take{
+.take {
     text-align: center;
     padding-bottom: 15px;
 }
-.take-title{
+.take-title {
     text-align: center;
     padding-bottom: 30px;
 }
-.img img{
+.img img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
 }
-.zip-paragraph{
+.zip-paragraph {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.zip-title{
+.zip-title {
     padding-top: 20px;
 }
-.take-yourself .btn{
+.take-yourself .btn {
     border-radius: 20px 0 20px 20px;
     background-color: red;
     padding: 13px;
     color: white;
-   
 }
-.take-yourself .btn:hover{
-    background-color: #04B3D0;
+.take-yourself .btn:hover {
+    background-color: #04b3d0;
 }
 
-.making-tour{
+.making-tour {
     padding-top: 100px;
-    background-image: url('../img/home-mask-shape.png');
-    background-color:whitesmoke;
+    background-image: url("../img/home-mask-shape.png");
+    background-color: whitesmoke;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.group-btn .btn{
+.group-btn .btn {
     border-radius: 20px 0 20px 20px;
     background-color: red;
     padding: 15px 20px;
     color: white;
 }
-.group-btn .btn:hover{
-    background-color: #04B3D0;
+.group-btn .btn:hover {
+    background-color: #04b3d0;
 }
-.tour-paragraph{
+.tour-paragraph {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.tour-title{
+.tour-title {
     padding-bottom: 5px;
 }
 
-
-.business{
+.business {
     padding-top: 100px;
 }
-.business-sub-title{
-   padding-bottom: 15px;
-}
-.business-title{
+.business-sub-title {
     padding-bottom: 15px;
 }
-.hiking-pic img{
+.business-title {
+    padding-bottom: 15px;
+}
+.hiking-pic img {
     width: 100px;
     padding-top: 20px;
 }
-.hiking-title{
+.hiking-title {
     padding-top: 20px;
 }
 
-.hiking-text{
+.hiking-text {
     margin-left: 30px;
 }
-.footprints{
+.footprints {
     padding-top: 100px;
-    background-image: url('../img/number-counter-bg.png');
+    background-image: url("../img/number-counter-bg.png");
     background-position: bottom top;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.footprint-title{
+.footprint-title {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.rounded-circle{
+.rounded-circle {
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -208,43 +220,43 @@ figure{
     border: 1px solid black;
     transition: 1s;
 }
-.rounded-circle:hover{
+.rounded-circle:hover {
     transform: scale(1.2);
 }
-.quotes{
+.quotes {
     padding-top: 40px;
     line-height: 28px;
 }
-.nelson a{
+.nelson a {
     color: black;
     font-size: 30px;
 }
-.nelson a:hover{
+.nelson a:hover {
     color: green;
 }
-.testimonal{
+.testimonal {
     padding-top: 100px;
-    background-image: url('../img/home-intro-bg.jpg');
+    background-image: url("../img/home-intro-bg.jpg");
     background-repeat: no-repeat;
 }
-.testimonal-title{
+.testimonal-title {
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.profile-picture img{
+.profile-picture img {
     border-radius: 50%;
     border: 2px solid black;
     padding: 10px;
 }
-.review-text{
+.review-text {
     padding-top: 20px;
 }
-.review-person a{
+.review-person a {
     font-size: 40px;
     color: black;
     padding-top: 20px;
 }
-.review-person a:hover{
+.review-person a:hover {
     color: green;
 }
 /* .slick-arrow::before{
@@ -259,76 +271,74 @@ figure{
 .slick-prev:before{
     font-size: 57px;
 } */
-.journalist{
+.journalist {
     padding-top: 10px;
 }
-.partner-sub-title{
+.partner-sub-title {
     padding-top: 100px;
     padding-bottom: 20px;
 }
-.partner-title{
+.partner-title {
     padding-bottom: 20px;
 }
-.logo-partner img{
+.logo-partner img {
     transition: 1s;
 }
-.logo-partner img:hover{
+.logo-partner img:hover {
     transform: scale(1.2);
 }
-.latesh-news{
+.latesh-news {
     padding-top: 100px;
-    background-image: url('../img/alex-gorham-gIgciC_WKnY-unsplash.jpg');
+    background-image: url("../img/alex-gorham-gIgciC_WKnY-unsplash.jpg");
     background-position: center;
     padding: 50px;
 }
-.news-sub-title{
+.news-sub-title {
     padding-top: 60px;
     margin-bottom: 20px;
     color: white;
 }
-.news-title{
+.news-title {
     color: white;
     padding-bottom: 60px;
 }
-.footer{
+.footer {
     padding-top: 100px;
     background-color: black;
     color: white;
     margin-top: 100px;
-
 }
-.footer-paragraph{
+.footer-paragraph {
     opacity: 50%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.face a{
-    background-color: #04B3D0;
-   padding: 6px;
-   border-radius: 10%;
+.face a {
+    background-color: #04b3d0;
+    padding: 6px;
+    border-radius: 10%;
 }
-.face{
+.face {
     margin-right: 20px;
     padding-bottom: 50px;
 }
-.company-info{
+.company-info {
     padding-bottom: 40px;
 }
-.company-title{
+.company-title {
     padding-top: 10px;
     opacity: 50%;
 }
-.quicks-links{
+.quicks-links {
     padding-bottom: 25px;
 }
-.links a{
+.links a {
     padding-bottom: 100px;
-  
 }
-.links a:hover{
-    color: #04B3D0;
+.links a:hover {
+    color: #04b3d0;
 }
-.footer-end-text{
+.footer-end-text {
     padding-top: 30px;
     padding-bottom: 20px;
 }
